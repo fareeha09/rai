@@ -9,4 +9,5 @@ function changepic() {
   } else if (times_clicked== 3) {
     document.getElementById("image").src = "rai.JPG";
     times_clicked = 0;
+    document.getElementById("button").innerHTML = "NEXT EXPOSEEEE"
 }}
