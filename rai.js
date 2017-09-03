@@ -4,7 +4,7 @@ function changepic() {
   if (times_clicked==1) {
     document.getElementById("image").src = "rai1.JPG";
   } else if (times_clicked==2) {
-    document.getElementById("image").src = "rai2.JPG";
+    document.getElementById("image").src = "rai2.jpg";
     document.getElementById("button").innerHTML = "BACK TO 1ST EXPOSE";
   } else if (times_clicked== 3) {
     document.getElementById("image").src = "rai.JPG";
